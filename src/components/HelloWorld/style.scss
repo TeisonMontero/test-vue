@@ -1,0 +1,13 @@
+@import '../../index.scss';
+
+.hello{
+    h3 {
+       text-align: center;
+       font-size: 30px;
+       font-weight: 900;
+       color: $orange;
+       letter-spacing: 1px;
+       margin: 20px 0;
+    }
+    
+}

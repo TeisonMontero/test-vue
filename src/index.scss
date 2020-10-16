@@ -1,0 +1,23 @@
+@import './style/index.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: $gray;
+    color: $font-primary;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.active{
+    tr{
+        color: $orange;
+    }
+}
